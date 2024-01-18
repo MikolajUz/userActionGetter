@@ -1,4 +1,7 @@
 export interface userData {
-  id: number;
-  data: string;
+  url:string,
+  pageTitle: string;
+  browserInfo: string;
+  screenResolution: string;
+  
 }
