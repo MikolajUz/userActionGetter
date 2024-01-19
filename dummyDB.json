@@ -3,162 +3,2017 @@
     {
       "0": {
         "type": "mousemove",
-        "position": "(0, 577)"
+        "position": "(28, 649)",
+        "time": "2024-01-19T17:06:29.074Z"
       },
-      "id": "3f95"
-    },
-    {
-      "id": "91a3"
-    },
-    {
-      "id": "0691"
+      "id": "e63d"
     },
     {
       "0": {
         "type": "mousemove",
-        "position": "(467, 81)"
+        "position": "(36, 698)",
+        "time": "2024-01-19T17:07:24.372Z"
       },
       "1": {
         "type": "mousemove",
-        "position": "(518, 150)"
+        "position": "(486, 652)",
+        "time": "2024-01-19T17:07:24.474Z"
       },
       "2": {
         "type": "mousemove",
-        "position": "(608, 178)"
+        "position": "(626, 658)",
+        "time": "2024-01-19T17:07:24.682Z"
       },
       "3": {
         "type": "mousemove",
-        "position": "(617, 158)"
+        "position": "(52, 600)",
+        "time": "2024-01-19T17:07:25.091Z"
       },
       "4": {
         "type": "mousemove",
-        "position": "(554, 70)"
-      },
-      "id": "d0f6"
-    },
-    {
-      "id": "db6d"
-    },
-    {
-      "0": {
-        "type": "mousemove",
-        "position": "(175, 64)"
-      },
-      "1": {
-        "type": "mousemove",
-        "position": "(153, 83)"
-      },
-      "2": {
-        "type": "mousemove",
-        "position": "(152, 85)"
-      },
-      "3": {
-        "type": "mousemove",
-        "position": "(126, 84)"
-      },
-      "4": {
-        "type": "mousemove",
-        "position": "(122, 84)"
+        "position": "(812, 767)",
+        "time": "2024-01-19T17:07:25.202Z"
       },
       "5": {
-        "type": "click",
-        "position": "(122, 84),element [object HTMLDivElement]"
+        "type": "mousemove",
+        "position": "(834, 765)",
+        "time": "2024-01-19T17:07:25.402Z"
       },
       "6": {
         "type": "mousemove",
-        "position": "(113, 66)"
+        "position": "(790, 786)",
+        "time": "2024-01-19T17:07:25.514Z"
       },
       "7": {
         "type": "mousemove",
-        "position": "(112, 57)"
+        "position": "(754, 797)",
+        "time": "2024-01-19T17:07:25.618Z"
       },
       "8": {
         "type": "mousemove",
-        "position": "(106, 51)"
+        "position": "(734, 788)",
+        "time": "2024-01-19T17:07:25.730Z"
       },
       "9": {
-        "type": "click",
-        "position": "(106, 50),element [object HTMLButtonElement]"
+        "type": "mousemove",
+        "position": "(558, 680)",
+        "time": "2024-01-19T17:07:25.842Z"
       },
       "10": {
-        "type": "click",
-        "position": "(106, 50),element [object HTMLButtonElement]"
+        "type": "mousemove",
+        "position": "(487, 575)",
+        "time": "2024-01-19T17:07:25.954Z"
       },
       "11": {
-        "type": "click",
-        "position": "(106, 50),element [object HTMLButtonElement]"
+        "type": "mousemove",
+        "position": "(476, 550)",
+        "time": "2024-01-19T17:07:26.058Z"
       },
       "12": {
         "type": "mousemove",
-        "position": "(107, 50)"
+        "position": "(475, 540)",
+        "time": "2024-01-19T17:07:26.170Z"
       },
       "13": {
         "type": "mousemove",
-        "position": "(154, 96)"
+        "position": "(475, 537)",
+        "time": "2024-01-19T17:07:26.338Z"
       },
       "14": {
-        "type": "click",
-        "position": "(154, 97),element [object HTMLDivElement]"
+        "type": "mousemove",
+        "position": "(459, 491)",
+        "time": "2024-01-19T17:07:26.450Z"
       },
       "15": {
         "type": "mousemove",
-        "position": "(154, 98)"
+        "position": "(459, 488)",
+        "time": "2024-01-19T17:07:26.562Z"
       },
       "16": {
         "type": "mousemove",
-        "position": "(163, 101)"
+        "position": "(596, 408)",
+        "time": "2024-01-19T17:07:26.674Z"
       },
       "17": {
         "type": "mousemove",
-        "position": "(171, 102)"
+        "position": "(608, 396)",
+        "time": "2024-01-19T17:07:26.786Z"
       },
       "18": {
         "type": "mousemove",
-        "position": "(97, 57)"
+        "position": "(620, 387)",
+        "time": "2024-01-19T17:07:26.890Z"
       },
       "19": {
         "type": "mousemove",
-        "position": "(95, 55)"
+        "position": "(687, 354)",
+        "time": "2024-01-19T17:07:27.002Z"
       },
       "20": {
-        "type": "click",
-        "position": "(95, 55),element [object HTMLButtonElement]"
+        "type": "mousemove",
+        "position": "(748, 322)",
+        "time": "2024-01-19T17:07:27.114Z"
       },
       "21": {
         "type": "mousemove",
-        "position": "(102, 50)"
+        "position": "(755, 314)",
+        "time": "2024-01-19T17:07:28.562Z"
       },
-      "id": "e74b"
+      "id": "def6"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(57, 110)",
+        "time": "2024-01-19T17:09:04.868Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(463, 69)",
+        "time": "2024-01-19T17:09:05.034Z"
+      },
+      "2": {
+        "type": "mousemove",
+        "position": "(175, 44)",
+        "time": "2024-01-19T17:09:05.138Z"
+      },
+      "3": {
+        "type": "mousemove",
+        "position": "(395, 1)",
+        "time": "2024-01-19T17:09:05.474Z"
+      },
+      "4": {
+        "type": "mousemove",
+        "position": "(513, 20)",
+        "time": "2024-01-19T17:09:05.586Z"
+      },
+      "5": {
+        "type": "mousemove",
+        "position": "(529, 8)",
+        "time": "2024-01-19T17:09:05.698Z"
+      },
+      "6": {
+        "type": "mousemove",
+        "position": "(152, 21)",
+        "time": "2024-01-19T17:09:05.818Z"
+      },
+      "id": "f724"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(106, 270)",
+        "time": "2024-01-19T17:25:25.762Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(914, 148)",
+        "time": "2024-01-19T17:25:26.303Z"
+      },
+      "id": "15bd"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(457, 28)",
+        "time": "2024-01-19T17:40:05.286Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(894, 417)",
+        "time": "2024-01-19T17:40:05.396Z"
+      },
+      "id": "6fd7"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(107, 66)",
+        "time": "2024-01-19T17:41:11.814Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(650, 18)",
+        "time": "2024-01-19T17:41:12.405Z"
+      },
+      "2": {
+        "type": "mousemove",
+        "position": "(568, 40)",
+        "time": "2024-01-19T17:41:12.516Z"
+      },
+      "id": "6932"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(499, 0)",
+        "time": "2024-01-19T17:56:43.205Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(742, 220)",
+        "time": "2024-01-19T17:56:43.338Z"
+      },
+      "2": {
+        "type": "mousemove",
+        "position": "(741, 220)",
+        "time": "2024-01-19T17:56:43.538Z"
+      },
+      "3": {
+        "type": "mousemove",
+        "position": "(754, 210)",
+        "time": "2024-01-19T17:56:43.650Z"
+      },
+      "4": {
+        "type": "mousemove",
+        "position": "(781, 206)",
+        "time": "2024-01-19T17:56:44.010Z"
+      },
+      "5": {
+        "type": "mousemove",
+        "position": "(666, 182)",
+        "time": "2024-01-19T17:56:44.114Z"
+      },
+      "6": {
+        "type": "click",
+        "position": "(619, 166)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:44.331Z"
+      },
+      "7": {
+        "type": "mousemove",
+        "position": "(616, 164)",
+        "time": "2024-01-19T17:56:44.618Z"
+      },
+      "8": {
+        "type": "mousemove",
+        "position": "(461, 107)",
+        "time": "2024-01-19T17:56:44.722Z"
+      },
+      "9": {
+        "type": "mousemove",
+        "position": "(297, 100)",
+        "time": "2024-01-19T17:56:44.834Z"
+      },
+      "10": {
+        "type": "mousemove",
+        "position": "(251, 89)",
+        "time": "2024-01-19T17:56:44.946Z"
+      },
+      "11": {
+        "type": "click",
+        "position": "(200, 65)",
+        "elements": [
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:45.179Z"
+      },
+      "12": {
+        "type": "mousemove",
+        "position": "(199, 65)",
+        "time": "2024-01-19T17:56:45.186Z"
+      },
+      "13": {
+        "type": "mousemove",
+        "position": "(141, 50)",
+        "time": "2024-01-19T17:56:45.298Z"
+      },
+      "14": {
+        "type": "mousemove",
+        "position": "(110, 47)",
+        "time": "2024-01-19T17:56:45.410Z"
+      },
+      "15": {
+        "type": "click",
+        "position": "(109, 47)",
+        "elements": [
+          {
+            "type": "button",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:45.587Z"
+      },
+      "16": {
+        "type": "mousemove",
+        "position": "(108, 47)",
+        "time": "2024-01-19T17:56:45.698Z"
+      },
+      "17": {
+        "type": "click",
+        "position": "(94, 47)",
+        "elements": [
+          {
+            "type": "button",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:45.946Z"
+      },
+      "18": {
+        "type": "mousemove",
+        "position": "(93, 47)",
+        "time": "2024-01-19T17:56:45.994Z"
+      },
+      "19": {
+        "type": "mousemove",
+        "position": "(54, 47)",
+        "time": "2024-01-19T17:56:46.106Z"
+      },
+      "20": {
+        "type": "click",
+        "position": "(45, 47)",
+        "elements": [
+          {
+            "type": "span",
+            "classList": [
+              "mdc-button__label"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-button-touch-target"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-focus-indicator"
+            ]
+          },
+          {
+            "type": "button",
+            "classList": [
+              "mdc-button",
+              "mdc-button--raised",
+              "mat-mdc-raised-button",
+              "mat-unthemed",
+              "mat-mdc-button-base",
+              "cdk-focused",
+              "cdk-mouse-focused"
+            ]
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:46.299Z"
+      },
+      "21": {
+        "type": "click",
+        "position": "(45, 47)",
+        "elements": [
+          {
+            "type": "span",
+            "classList": [
+              "mdc-button__label"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-button-touch-target"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-focus-indicator"
+            ]
+          },
+          {
+            "type": "button",
+            "classList": [
+              "mdc-button",
+              "mdc-button--raised",
+              "mat-mdc-raised-button",
+              "mat-unthemed",
+              "mat-mdc-button-base",
+              "cdk-focused",
+              "cdk-mouse-focused"
+            ]
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:46.515Z"
+      },
+      "22": {
+        "type": "mousemove",
+        "position": "(45, 48)",
+        "time": "2024-01-19T17:56:46.522Z"
+      },
+      "23": {
+        "type": "mousemove",
+        "position": "(99, 48)",
+        "time": "2024-01-19T17:56:46.626Z"
+      },
+      "24": {
+        "type": "click",
+        "position": "(103, 47)",
+        "elements": [
+          {
+            "type": "button",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:46.770Z"
+      },
+      "25": {
+        "type": "mousemove",
+        "position": "(104, 47)",
+        "time": "2024-01-19T17:56:46.778Z"
+      },
+      "26": {
+        "type": "mousemove",
+        "position": "(630, 121)",
+        "time": "2024-01-19T17:56:46.890Z"
+      },
+      "27": {
+        "type": "mousemove",
+        "position": "(905, 350)",
+        "time": "2024-01-19T17:56:48.203Z"
+      },
+      "28": {
+        "type": "mousemove",
+        "position": "(742, 344)",
+        "time": "2024-01-19T17:56:48.314Z"
+      },
+      "29": {
+        "type": "mousemove",
+        "position": "(715, 343)",
+        "time": "2024-01-19T17:56:48.546Z"
+      },
+      "30": {
+        "type": "mousemove",
+        "position": "(909, 353)",
+        "time": "2024-01-19T17:56:48.658Z"
+      },
+      "31": {
+        "type": "mousemove",
+        "position": "(881, 281)",
+        "time": "2024-01-19T17:56:50.474Z"
+      },
+      "32": {
+        "type": "mousemove",
+        "position": "(390, 116)",
+        "time": "2024-01-19T17:56:50.578Z"
+      },
+      "33": {
+        "type": "click",
+        "position": "(390, 116)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:50.803Z"
+      },
+      "id": "803e"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(392, 114)",
+        "time": "2024-01-19T17:56:52.387Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(581, 12)",
+        "time": "2024-01-19T17:56:53.275Z"
+      },
+      "2": {
+        "type": "click",
+        "position": "(555, 111)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:53.875Z"
+      },
+      "3": {
+        "type": "mousemove",
+        "position": "(554, 112)",
+        "time": "2024-01-19T17:56:53.882Z"
+      },
+      "4": {
+        "type": "mousemove",
+        "position": "(560, 128)",
+        "time": "2024-01-19T17:56:53.994Z"
+      },
+      "5": {
+        "type": "mousemove",
+        "position": "(774, 196)",
+        "time": "2024-01-19T17:56:54.106Z"
+      },
+      "6": {
+        "type": "mousemove",
+        "position": "(805, 199)",
+        "time": "2024-01-19T17:56:54.218Z"
+      },
+      "7": {
+        "type": "click",
+        "position": "(805, 199)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:54.219Z"
+      },
+      "8": {
+        "type": "mousemove",
+        "position": "(911, 64)",
+        "time": "2024-01-19T17:56:56.810Z"
+      },
+      "9": {
+        "type": "mousemove",
+        "position": "(592, 141)",
+        "time": "2024-01-19T17:56:56.922Z"
+      },
+      "10": {
+        "type": "mousemove",
+        "position": "(589, 144)",
+        "time": "2024-01-19T17:56:57.034Z"
+      },
+      "11": {
+        "type": "click",
+        "position": "(585, 144)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:57.050Z"
+      },
+      "12": {
+        "type": "mousemove",
+        "position": "(393, 89)",
+        "time": "2024-01-19T17:56:57.146Z"
+      },
+      "13": {
+        "type": "mousemove",
+        "position": "(330, 64)",
+        "time": "2024-01-19T17:56:57.258Z"
+      },
+      "14": {
+        "type": "mousemove",
+        "position": "(247, 42)",
+        "time": "2024-01-19T17:56:57.370Z"
+      },
+      "15": {
+        "type": "mousemove",
+        "position": "(173, 49)",
+        "time": "2024-01-19T17:56:57.482Z"
+      },
+      "16": {
+        "type": "mousemove",
+        "position": "(147, 54)",
+        "time": "2024-01-19T17:56:57.594Z"
+      },
+      "17": {
+        "type": "mousemove",
+        "position": "(115, 57)",
+        "time": "2024-01-19T17:56:57.698Z"
+      },
+      "18": {
+        "type": "click",
+        "position": "(105, 52)",
+        "elements": [
+          {
+            "type": "button",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:57.923Z"
+      },
+      "19": {
+        "type": "mousemove",
+        "position": "(104, 51)",
+        "time": "2024-01-19T17:56:58.147Z"
+      },
+      "20": {
+        "type": "mousemove",
+        "position": "(59, 44)",
+        "time": "2024-01-19T17:56:58.250Z"
+      },
+      "21": {
+        "type": "click",
+        "position": "(42, 43)",
+        "elements": [
+          {
+            "type": "span",
+            "classList": [
+              "mdc-button__label"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-button-touch-target"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-focus-indicator"
+            ]
+          },
+          {
+            "type": "button",
+            "classList": [
+              "mdc-button",
+              "mdc-button--raised",
+              "mat-mdc-raised-button",
+              "mat-unthemed",
+              "mat-mdc-button-base",
+              "cdk-focused",
+              "cdk-mouse-focused"
+            ]
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:58.571Z"
+      },
+      "22": {
+        "type": "click",
+        "position": "(42, 43)",
+        "elements": [
+          {
+            "type": "span",
+            "classList": [
+              "mdc-button__label"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-button-touch-target"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-focus-indicator"
+            ]
+          },
+          {
+            "type": "button",
+            "classList": [
+              "mdc-button",
+              "mdc-button--raised",
+              "mat-mdc-raised-button",
+              "mat-unthemed",
+              "mat-mdc-button-base",
+              "cdk-focused",
+              "cdk-mouse-focused"
+            ]
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:58.947Z"
+      },
+      "23": {
+        "type": "click",
+        "position": "(42, 43)",
+        "elements": [
+          {
+            "type": "span",
+            "classList": [
+              "mdc-button__label"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-button-touch-target"
+            ]
+          },
+          {
+            "type": "span",
+            "classList": [
+              "mat-mdc-focus-indicator"
+            ]
+          },
+          {
+            "type": "button",
+            "classList": [
+              "mdc-button",
+              "mdc-button--raised",
+              "mat-mdc-raised-button",
+              "mat-unthemed",
+              "mat-mdc-button-base",
+              "cdk-focused",
+              "cdk-mouse-focused"
+            ]
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:59.179Z"
+      },
+      "24": {
+        "type": "mousemove",
+        "position": "(43, 43)",
+        "time": "2024-01-19T17:56:59.218Z"
+      },
+      "25": {
+        "type": "mousemove",
+        "position": "(94, 38)",
+        "time": "2024-01-19T17:56:59.330Z"
+      },
+      "26": {
+        "type": "click",
+        "position": "(101, 35)",
+        "elements": [
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:59.554Z"
+      },
+      "27": {
+        "type": "mousemove",
+        "position": "(101, 36)",
+        "time": "2024-01-19T17:56:59.746Z"
+      },
+      "28": {
+        "type": "mousemove",
+        "position": "(101, 40)",
+        "time": "2024-01-19T17:56:59.931Z"
+      },
+      "29": {
+        "type": "click",
+        "position": "(101, 40)",
+        "elements": [
+          {
+            "type": "button",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:56:59.931Z"
+      },
+      "30": {
+        "type": "click",
+        "position": "(102, 47)",
+        "elements": [
+          {
+            "type": "button",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "app-root",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:00.163Z"
+      },
+      "31": {
+        "type": "mousemove",
+        "position": "(102, 48)",
+        "time": "2024-01-19T17:57:00.170Z"
+      },
+      "32": {
+        "type": "mousemove",
+        "position": "(263, 91)",
+        "time": "2024-01-19T17:57:00.282Z"
+      },
+      "33": {
+        "type": "mousemove",
+        "position": "(320, 130)",
+        "time": "2024-01-19T17:57:00.418Z"
+      },
+      "34": {
+        "type": "click",
+        "position": "(320, 132)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:00.426Z"
+      },
+      "35": {
+        "type": "mousemove",
+        "position": "(463, 231)",
+        "time": "2024-01-19T17:57:00.530Z"
+      },
+      "36": {
+        "type": "mousemove",
+        "position": "(489, 247)",
+        "time": "2024-01-19T17:57:00.642Z"
+      },
+      "37": {
+        "type": "click",
+        "position": "(494, 247)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:00.651Z"
+      },
+      "38": {
+        "type": "mousemove",
+        "position": "(900, 300)",
+        "time": "2024-01-19T17:57:02.306Z"
+      },
+      "39": {
+        "type": "mousemove",
+        "position": "(770, 301)",
+        "time": "2024-01-19T17:57:02.530Z"
+      },
+      "id": "92bd"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(614, 11)",
+        "time": "2024-01-19T17:57:14.588Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(906, 160)",
+        "time": "2024-01-19T17:57:14.698Z"
+      },
+      "id": "7bed"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(915, 81)",
+        "time": "2024-01-19T17:57:25.258Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(649, 110)",
+        "time": "2024-01-19T17:57:25.362Z"
+      },
+      "2": {
+        "type": "click",
+        "position": "(643, 114)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:25.546Z"
+      },
+      "3": {
+        "type": "mousemove",
+        "position": "(642, 114)",
+        "time": "2024-01-19T17:57:25.618Z"
+      },
+      "4": {
+        "type": "mousemove",
+        "position": "(558, 132)",
+        "time": "2024-01-19T17:57:25.730Z"
+      },
+      "5": {
+        "type": "click",
+        "position": "(553, 133)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:25.914Z"
+      },
+      "6": {
+        "type": "mousemove",
+        "position": "(552, 133)",
+        "time": "2024-01-19T17:57:25.970Z"
+      },
+      "7": {
+        "type": "click",
+        "position": "(489, 63)",
+        "elements": [
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:26.306Z"
+      },
+      "8": {
+        "type": "mousemove",
+        "position": "(489, 62)",
+        "time": "2024-01-19T17:57:26.763Z"
+      },
+      "id": "37f0"
+    },
+    {
+      "0": {
+        "type": "mousemove",
+        "position": "(489, 59)",
+        "time": "2024-01-19T17:57:30.530Z"
+      },
+      "1": {
+        "type": "mousemove",
+        "position": "(889, 232)",
+        "time": "2024-01-19T17:57:33.474Z"
+      },
+      "2": {
+        "type": "mousemove",
+        "position": "(92, 156)",
+        "time": "2024-01-19T17:57:33.578Z"
+      },
+      "3": {
+        "type": "mousemove",
+        "position": "(87, 152)",
+        "time": "2024-01-19T17:57:33.690Z"
+      },
+      "4": {
+        "type": "mousemove",
+        "position": "(124, 98)",
+        "time": "2024-01-19T17:57:34.403Z"
+      },
+      "5": {
+        "type": "mousemove",
+        "position": "(598, 82)",
+        "time": "2024-01-19T17:57:34.506Z"
+      },
+      "6": {
+        "type": "mousemove",
+        "position": "(607, 77)",
+        "time": "2024-01-19T17:57:34.650Z"
+      },
+      "7": {
+        "type": "click",
+        "position": "(621, 95)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:34.842Z"
+      },
+      "8": {
+        "type": "mousemove",
+        "position": "(621, 96)",
+        "time": "2024-01-19T17:57:34.898Z"
+      },
+      "9": {
+        "type": "mousemove",
+        "position": "(374, 208)",
+        "time": "2024-01-19T17:57:35.010Z"
+      },
+      "10": {
+        "type": "click",
+        "position": "(363, 212)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:35.178Z"
+      },
+      "11": {
+        "type": "mousemove",
+        "position": "(363, 213)",
+        "time": "2024-01-19T17:57:35.202Z"
+      },
+      "12": {
+        "type": "mousemove",
+        "position": "(472, 308)",
+        "time": "2024-01-19T17:57:35.306Z"
+      },
+      "13": {
+        "type": "click",
+        "position": "(527, 347)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:35.498Z"
+      },
+      "14": {
+        "type": "mousemove",
+        "position": "(528, 347)",
+        "time": "2024-01-19T17:57:35.506Z"
+      },
+      "15": {
+        "type": "mousemove",
+        "position": "(532, 189)",
+        "time": "2024-01-19T17:57:35.618Z"
+      },
+      "16": {
+        "type": "click",
+        "position": "(416, 133)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:35.818Z"
+      },
+      "17": {
+        "type": "mousemove",
+        "position": "(415, 133)",
+        "time": "2024-01-19T17:57:35.914Z"
+      },
+      "18": {
+        "type": "mousemove",
+        "position": "(306, 202)",
+        "time": "2024-01-19T17:57:36.026Z"
+      },
+      "19": {
+        "type": "click",
+        "position": "(306, 202)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:36.178Z"
+      },
+      "20": {
+        "type": "mousemove",
+        "position": "(306, 203)",
+        "time": "2024-01-19T17:57:36.226Z"
+      },
+      "21": {
+        "type": "mousemove",
+        "position": "(227, 283)",
+        "time": "2024-01-19T17:57:36.338Z"
+      },
+      "22": {
+        "type": "click",
+        "position": "(227, 290)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:36.538Z"
+      },
+      "23": {
+        "type": "mousemove",
+        "position": "(228, 290)",
+        "time": "2024-01-19T17:57:36.570Z"
+      },
+      "24": {
+        "type": "mousemove",
+        "position": "(315, 328)",
+        "time": "2024-01-19T17:57:36.682Z"
+      },
+      "25": {
+        "type": "click",
+        "position": "(358, 390)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:36.938Z"
+      },
+      "26": {
+        "type": "mousemove",
+        "position": "(359, 390)",
+        "time": "2024-01-19T17:57:36.946Z"
+      },
+      "27": {
+        "type": "mousemove",
+        "position": "(442, 287)",
+        "time": "2024-01-19T17:57:37.058Z"
+      },
+      "28": {
+        "type": "click",
+        "position": "(468, 264)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:37.282Z"
+      },
+      "29": {
+        "type": "mousemove",
+        "position": "(469, 263)",
+        "time": "2024-01-19T17:57:37.298Z"
+      },
+      "30": {
+        "type": "mousemove",
+        "position": "(487, 150)",
+        "time": "2024-01-19T17:57:37.410Z"
+      },
+      "31": {
+        "type": "click",
+        "position": "(480, 145)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:37.634Z"
+      },
+      "32": {
+        "type": "mousemove",
+        "position": "(479, 145)",
+        "time": "2024-01-19T17:57:37.714Z"
+      },
+      "33": {
+        "type": "mousemove",
+        "position": "(265, 212)",
+        "time": "2024-01-19T17:57:37.826Z"
+      },
+      "34": {
+        "type": "click",
+        "position": "(262, 214)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:38.018Z"
+      },
+      "35": {
+        "type": "mousemove",
+        "position": "(263, 214)",
+        "time": "2024-01-19T17:57:38.074Z"
+      },
+      "36": {
+        "type": "mousemove",
+        "position": "(380, 310)",
+        "time": "2024-01-19T17:57:38.186Z"
+      },
+      "37": {
+        "type": "mousemove",
+        "position": "(392, 341)",
+        "time": "2024-01-19T17:57:38.426Z"
+      },
+      "38": {
+        "type": "click",
+        "position": "(392, 341)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:38.427Z"
+      },
+      "39": {
+        "type": "mousemove",
+        "position": "(475, 315)",
+        "time": "2024-01-19T17:57:38.538Z"
+      },
+      "40": {
+        "type": "mousemove",
+        "position": "(507, 362)",
+        "time": "2024-01-19T17:57:38.650Z"
+      },
+      "41": {
+        "type": "click",
+        "position": "(507, 364)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:38.818Z"
+      },
+      "42": {
+        "type": "mousemove",
+        "position": "(508, 362)",
+        "time": "2024-01-19T17:57:38.834Z"
+      },
+      "43": {
+        "type": "mousemove",
+        "position": "(469, 244)",
+        "time": "2024-01-19T17:57:38.946Z"
+      },
+      "44": {
+        "type": "click",
+        "position": "(456, 226)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:39.154Z"
+      },
+      "45": {
+        "type": "mousemove",
+        "position": "(455, 225)",
+        "time": "2024-01-19T17:57:39.234Z"
+      },
+      "46": {
+        "type": "mousemove",
+        "position": "(410, 205)",
+        "time": "2024-01-19T17:57:39.346Z"
+      },
+      "47": {
+        "type": "click",
+        "position": "(409, 205)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:39.530Z"
+      },
+      "48": {
+        "type": "mousemove",
+        "position": "(408, 205)",
+        "time": "2024-01-19T17:57:39.634Z"
+      },
+      "49": {
+        "type": "mousemove",
+        "position": "(366, 278)",
+        "time": "2024-01-19T17:57:39.746Z"
+      },
+      "50": {
+        "type": "click",
+        "position": "(366, 279)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:39.890Z"
+      },
+      "51": {
+        "type": "mousemove",
+        "position": "(366, 277)",
+        "time": "2024-01-19T17:57:39.938Z"
+      },
+      "52": {
+        "type": "mousemove",
+        "position": "(462, 213)",
+        "time": "2024-01-19T17:57:40.050Z"
+      },
+      "53": {
+        "type": "click",
+        "position": "(470, 212)",
+        "elements": [
+          {
+            "type": "div",
+            "classList": []
+          },
+          {
+            "type": "app-main",
+            "classList": []
+          },
+          {
+            "type": "body",
+            "classList": [
+              "mat-typography"
+            ]
+          },
+          {
+            "type": "html",
+            "classList": []
+          }
+        ],
+        "time": "2024-01-19T17:57:40.218Z"
+      },
+      "54": {
+        "type": "mousemove",
+        "position": "(472, 212)",
+        "time": "2024-01-19T17:57:40.274Z"
+      },
+      "55": {
+        "type": "mousemove",
+        "position": "(497, 210)",
+        "time": "2024-01-19T17:57:40.386Z"
+      },
+      "id": "2c77"
     }
   ],
   "userInfo": [
     {
-      "id": "721e",
+      "id": "a859",
       "url": "",
       "pageTitle": "",
       "browserInfo": "",
-      "screenResolution": ""
+      "screenResolution": "",
+      "userAgent": "",
+      "language": "",
+      "doNotTrack": null,
+      "referrer": "",
+      "isMobile": false,
+      "timezone": "",
+      "screenOrientation": "",
+      "browserCodeName": "",
+      "browserName": "",
+      "browserVersion": "",
+      "platform": ""
     },
     {
-      "id": "b67d",
+      "id": "eedd",
       "url": "http://localhost:4200/",
       "pageTitle": "UserActionGetter",
       "browserInfo": "Chrome",
-      "screenResolution": "1920x1080"
+      "screenResolution": "1920x1080",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "language": "en",
+      "cookies": true,
+      "onlineStatus": true,
+      "geolocation": {},
+      "mediaDevices": {},
+      "doNotTrack": null,
+      "referrer": "",
+      "isMobile": false,
+      "timezone": "Europe/Warsaw",
+      "screenOrientation": "landscape-primary",
+      "browserCodeName": "Mozilla",
+      "browserName": "Netscape",
+      "browserVersion": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "platform": "Win32"
     },
     {
-      "id": "1fa0",
+      "id": "4eaf",
       "url": "",
       "pageTitle": "",
       "browserInfo": "",
-      "screenResolution": ""
+      "screenResolution": "",
+      "userAgent": "",
+      "language": "",
+      "doNotTrack": null,
+      "referrer": "",
+      "isMobile": false,
+      "timezone": "",
+      "screenOrientation": "",
+      "browserCodeName": "",
+      "browserName": "",
+      "browserVersion": "",
+      "platform": ""
     },
     {
-      "id": "f618",
-      "url": "http://127.0.0.1:4200/",
+      "id": "16ce",
+      "url": "http://localhost:4200/",
       "pageTitle": "UserActionGetter",
       "browserInfo": "Chrome",
-      "screenResolution": "1920x1080"
+      "screenResolution": "1920x1080",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "language": "en",
+      "cookies": true,
+      "onlineStatus": true,
+      "geolocation": {},
+      "mediaDevices": {},
+      "doNotTrack": null,
+      "referrer": "",
+      "isMobile": false,
+      "timezone": "Europe/Warsaw",
+      "screenOrientation": "landscape-primary",
+      "browserCodeName": "Mozilla",
+      "browserName": "Netscape",
+      "browserVersion": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "platform": "Win32"
+    },
+    {
+      "id": "b2ac",
+      "url": "",
+      "pageTitle": "",
+      "browserInfo": "",
+      "screenResolution": "",
+      "userAgent": "",
+      "language": "",
+      "doNotTrack": null,
+      "referrer": "",
+      "isMobile": false,
+      "timezone": "",
+      "screenOrientation": "",
+      "browserCodeName": "",
+      "browserName": "",
+      "browserVersion": "",
+      "platform": ""
+    },
+    {
+      "id": "6c89",
+      "url": "http://localhost:4200/",
+      "pageTitle": "UserActionGetter",
+      "browserInfo": "Chrome",
+      "screenResolution": "1920x1080",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "language": "en",
+      "cookies": true,
+      "onlineStatus": true,
+      "geolocation": {},
+      "mediaDevices": {},
+      "doNotTrack": null,
+      "referrer": "http://localhost:4200/",
+      "isMobile": false,
+      "timezone": "Europe/Warsaw",
+      "screenOrientation": "landscape-primary",
+      "browserCodeName": "Mozilla",
+      "browserName": "Netscape",
+      "browserVersion": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "platform": "Win32"
+    },
+    {
+      "id": "60da",
+      "url": "",
+      "pageTitle": "",
+      "browserInfo": "",
+      "screenResolution": "",
+      "userAgent": "",
+      "language": "",
+      "doNotTrack": null,
+      "referrer": "",
+      "isMobile": false,
+      "timezone": "",
+      "screenOrientation": "",
+      "browserCodeName": "",
+      "browserName": "",
+      "browserVersion": "",
+      "platform": ""
+    },
+    {
+      "id": "2466",
+      "url": "http://localhost:4200/",
+      "pageTitle": "UserActionGetter",
+      "browserInfo": "Chrome",
+      "screenResolution": "1920x1080",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "language": "en",
+      "cookies": true,
+      "onlineStatus": true,
+      "geolocation": {},
+      "mediaDevices": {},
+      "doNotTrack": null,
+      "referrer": "http://localhost:4200/",
+      "isMobile": false,
+      "timezone": "Europe/Warsaw",
+      "screenOrientation": "landscape-primary",
+      "browserCodeName": "Mozilla",
+      "browserName": "Netscape",
+      "browserVersion": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "platform": "Win32"
     }
   ]
 }

@@ -9,19 +9,18 @@ import { UserAction } from '../interfaces/userAction.interface';
 })
 export class APIService {
   private apiUrl = 'http://localhost:3000';
+  private userInfoEndpoint = '/userInfo';
+  private actionsEndpoint = '/actions';
 
   constructor(private http: HttpClient) {}
 
-  postUserData(postData: userData ): Observable<any> {
-    const url = `${this.apiUrl}/userInfo`;
-    return this.http.post(url, postData);
+  postUserData(postData: userData): Observable<any> {
+    const url = `${this.apiUrl}${this.userInfoEndpoint}`;
+    return this.http.post<any>(url, postData);
   }
 
-  postAction(postData:  any[] ): Observable<any> {
-    const url = `${this.apiUrl}/actions`;
-    return this.http.post(url, postData);
+  postAction(postData: any[]): Observable<any> {
+    const url = `${this.apiUrl}${this.actionsEndpoint}`;
+    return this.http.post<any>(url, postData);
   }
- 
-
-
 }

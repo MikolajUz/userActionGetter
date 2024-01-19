@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { APIService } from '../../../services/api.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -16,7 +16,12 @@ export class MainComponent implements OnInit {
   constructor(private apiService: APIService) {}
 
   ngOnInit(): void {
-    this.apiService.postUserData(getUserInfo()).subscribe(
+    this.postUserData();
+  }
+
+  private postUserData(): void {
+    const userInfo = getUserInfo();
+    this.apiService.postUserData(userInfo).subscribe(
       (response) => {
         console.log('POST Success:', response);
       },
