@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import {
   Subject,
+  debounceTime,
   fromEvent,
   merge,
   switchMap,
@@ -40,15 +41,18 @@ export class UserActionComponent {
 
       const merged$ = merge(mouseMove$, click$, scroll$);
 
-      const resetTimer$ = this.activity$.pipe(switchMap(() => timer(3000)));
+      const resetTimer$ = this.activity$.pipe(
+        debounceTime(3000),
+        switchMap(() => timer(3000))
+      );
 
       merge(merged$, resetTimer$)
-        .pipe(throttleTime(3000), takeUntil(this.destroy$))
+        .pipe(throttleTime(4000), takeUntil(this.destroy$))
         .subscribe(() => {
           this.sendActivitiesToBackend();
         });
 
-      mouseMove$.subscribe((event) => {
+      mouseMove$.pipe(throttleTime(100)).subscribe((event) => {
         this.mousePosition = `(${event.clientX}, ${event.clientY})`;
         this.activity$.next();
         this.accumulateData({
@@ -58,7 +62,9 @@ export class UserActionComponent {
       });
 
       click$.subscribe((event) => {
-        this.lastClickPosition = `(${event.clientX}, ${event.clientY})`;
+        this.lastClickPosition = `(${event.clientX}, ${
+          event.clientY
+        }),element ${event.target as HTMLElement}`;
         this.activity$.next();
         this.accumulateData({
           type: 'click',
@@ -84,14 +90,20 @@ export class UserActionComponent {
   }
 
   private sendActivitiesToBackend(): void {
-    this.api.postAction(this.accumulatedData).subscribe(
-      (response) => {
-        console.log('POST Success:', response);
-        this.accumulatedData = [];
-      },
-      (error) => {
-        console.error('POST Error:', error);
-      }
-    );
+    if (this.accumulateData.length !== 0) {
+      this.api.postAction(this.accumulatedData).subscribe(
+        (response) => {
+          console.log('POST Success:', response);
+          this.accumulatedData = [];
+        },
+        (error) => {
+          console.error('POST Error:', error);
+        }
+      );
+    }
+  }
+  @HostListener('window:beforeunload', ['$event'])
+  unloadNotification(): void {
+    this.sendActivitiesToBackend();
   }
 }
