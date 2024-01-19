@@ -20,12 +20,44 @@ export const getUserInfo = () => {
     pageTitle: '',
     browserInfo: '',
     screenResolution: '',
+    userAgent: '',
+    language: '',
+    cookies: undefined,
+    onlineStatus: undefined,
+    geolocation: undefined,
+    hardwareConcurrency: undefined,
+    mediaDevices: undefined,
+    doNotTrack: null,
+    referrer: '',
+    isMobile: false,
+    timezone: '',
+    screenOrientation: '',
+    browserCodeName: '',
+    browserName: '',
+    browserVersion: '',
+    platform: '',
   };
 
   if (typeof window !== 'undefined') {
     retData.url = window.location.href;
     retData.browserInfo = getBrowserInfo();
     retData.screenResolution = `${window.screen.width}x${window.screen.height}`;
+    retData.userAgent = window.navigator.userAgent;
+    retData.language = window.navigator.language;
+    retData.cookies = window.navigator.cookieEnabled;
+    retData.onlineStatus = window.navigator.onLine;
+    retData.geolocation = window.navigator.geolocation;
+    retData.hardwareConcurrency = window.navigator.hardwareConcurrency;
+    retData.mediaDevices = window.navigator.mediaDevices;
+    retData.doNotTrack = window.navigator.doNotTrack;
+    retData.referrer = document.referrer;
+    retData.isMobile = /Mobi/i.test(window.navigator.userAgent);
+    retData.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    retData.screenOrientation = window.screen.orientation.type;
+    retData.browserCodeName = window.navigator.appCodeName;
+    retData.browserName = window.navigator.appName;
+    retData.browserVersion = window.navigator.appVersion;
+    retData.platform = window.navigator.platform;
   }
 
   if (typeof document !== 'undefined') {
