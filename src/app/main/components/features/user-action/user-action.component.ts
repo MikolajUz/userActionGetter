@@ -58,24 +58,34 @@ export class UserActionComponent {
         this.accumulateData({
           type: 'mousemove',
           position: this.mousePosition,
+          time: new Date(),
         });
       });
 
       click$.subscribe((event) => {
-        this.lastClickPosition = `(${event.clientX}, ${
-          event.clientY
-        }),element ${event.target as HTMLElement}`;
+        this.lastClickPosition = `(${event.clientX}, ${event.clientY})`;
+        let elements= document.elementsFromPoint(event.clientX, event.clientY).map(elem=>{return {
+          type: elem.tagName.toLowerCase(),
+          classList: Array.from(elem.classList),
+          textContent: elem.textContent,
+        }})
         this.activity$.next();
         this.accumulateData({
           type: 'click',
           position: this.lastClickPosition,
+          elements: elements,
+          time: new Date(),
         });
       });
 
       scroll$.subscribe((event) => {
         this.scroll = (event.target as Document).documentElement.scrollTop;
         this.activity$.next();
-        this.accumulateData({ type: 'scroll', position: this.scroll });
+        this.accumulateData({
+          type: 'scroll',
+          position: this.scroll,
+          time: new Date(),
+        });
       });
     }
   }
