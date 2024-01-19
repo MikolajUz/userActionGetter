@@ -13,6 +13,27 @@ import { APIService } from '../../../services/api.service';
 import { PLATFORM_ID, Inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
+interface MouseMoveData {
+  type: 'mousemove';
+  position: string;
+  time: Date;
+}
+
+interface ClickData {
+  type: 'click';
+  position: string;
+  elements: any[]; // Adjust the type as needed
+  time: Date;
+}
+
+interface ScrollData {
+  type: 'scroll';
+  position: number;
+  time: Date;
+}
+
+type UserData = MouseMoveData | ClickData | ScrollData;
+
 @Component({
   selector: 'app-user-action',
   standalone: true,
@@ -21,17 +42,18 @@ import { isPlatformBrowser } from '@angular/common';
   styleUrl: './user-action.component.scss',
 })
 export class UserActionComponent {
-  constructor(
-    private api: APIService,
-    @Inject(PLATFORM_ID) private platformId: Object
-  ) {}
   mousePosition: string = '';
   lastClickPosition: string = '';
   scroll: number = 0;
 
   private destroy$ = new Subject<void>();
   private activity$ = new Subject<void>();
-  private accumulatedData: any[] = [];
+  private accumulatedData: UserData[] = [];
+
+  constructor(
+    private api: APIService,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
@@ -53,44 +75,52 @@ export class UserActionComponent {
         });
 
       mouseMove$.pipe(throttleTime(100)).subscribe((event) => {
-        this.mousePosition = `(${event.clientX}, ${event.clientY})`;
-        this.activity$.next();
-        this.accumulateData({
-          type: 'mousemove',
-          position: this.mousePosition,
-          time: new Date(),
-        });
+        this.handleMouseMove(event);
       });
 
       click$.subscribe((event) => {
-        this.lastClickPosition = `(${event.clientX}, ${event.clientY})`;
-        let elements= document.elementsFromPoint(event.clientX, event.clientY).map(elem=>{return {
-          type: elem.tagName.toLowerCase(),
-          classList: Array.from(elem.classList),
-          textContent: elem.textContent,
-        }})
-        this.activity$.next();
-        this.accumulateData({
-          type: 'click',
-          position: this.lastClickPosition,
-          elements: elements,
-          time: new Date(),
-        });
+        this.handleMouseClick(event);
       });
 
       scroll$.subscribe((event) => {
-        this.scroll = (event.target as Document).documentElement.scrollTop;
-        this.activity$.next();
-        this.accumulateData({
-          type: 'scroll',
-          position: this.scroll,
-          time: new Date(),
-        });
+        this.handleScroll(event);
       });
     }
   }
 
-  private accumulateData(data: any): void {
+  private handleMouseMove(event: MouseEvent): void {
+    this.mousePosition = `(${event.clientX}, ${event.clientY})`;
+    this.activity$.next();
+    this.accumulateData({
+      type: 'mousemove',
+      position: this.mousePosition,
+      time: new Date(),
+    });
+  }
+
+  private handleMouseClick(event: MouseEvent): void {
+    this.lastClickPosition = `(${event.clientX}, ${event.clientY})`;
+    const elements = this.getElementsFromPoint(event.clientX, event.clientY);
+    this.activity$.next();
+    this.accumulateData({
+      type: 'click',
+      position: this.lastClickPosition,
+      elements,
+      time: new Date(),
+    });
+  }
+
+  private handleScroll(event: Event): void {
+    this.scroll = (event.target as Document).documentElement.scrollTop;
+    this.activity$.next();
+    this.accumulateData({
+      type: 'scroll',
+      position: this.scroll,
+      time: new Date(),
+    });
+  }
+
+  private accumulateData(data: UserData): void {
     this.accumulatedData.push(data);
   }
 
@@ -100,7 +130,7 @@ export class UserActionComponent {
   }
 
   private sendActivitiesToBackend(): void {
-    if (this.accumulateData.length !== 0) {
+    if (this.accumulatedData.length !== 0) {
       this.api.postAction(this.accumulatedData).subscribe(
         (response) => {
           console.log('POST Success:', response);
@@ -112,8 +142,21 @@ export class UserActionComponent {
       );
     }
   }
+
   @HostListener('window:beforeunload', ['$event'])
   unloadNotification(): void {
     this.sendActivitiesToBackend();
+  }
+
+  private getElementsFromPoint(x: number, y: number): any[] {
+    // Implement logic to retrieve elements from point
+    // You can customize this based on your requirements
+    return document.elementsFromPoint(x, y).map((elem) => {
+      return {
+        type: elem.tagName.toLowerCase(),
+        classList: Array.from(elem.classList),
+        textContent: elem.textContent,
+      };
+    });
   }
 }
