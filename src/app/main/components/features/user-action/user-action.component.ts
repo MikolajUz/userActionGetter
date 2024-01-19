@@ -4,10 +4,8 @@ import {
   debounceTime,
   fromEvent,
   merge,
-  switchMap,
   takeUntil,
   throttleTime,
-  timer,
 } from 'rxjs';
 import { APIService } from '../../../services/api.service';
 import { PLATFORM_ID, Inject } from '@angular/core';
@@ -22,7 +20,7 @@ interface MouseMoveData {
 interface ClickData {
   type: 'click';
   position: string;
-  elements: any[]; // Adjust the type as needed
+  elements: any[];
   time: Date;
 }
 
@@ -63,13 +61,8 @@ export class UserActionComponent {
 
       const merged$ = merge(mouseMove$, click$, scroll$);
 
-      const resetTimer$ = this.activity$.pipe(
-        debounceTime(3000),
-        switchMap(() => timer(3000))
-      );
-
-      merge(merged$, resetTimer$)
-        .pipe(throttleTime(4000), takeUntil(this.destroy$))
+      merged$
+        .pipe(debounceTime(2000), takeUntil(this.destroy$))
         .subscribe(() => {
           this.sendActivitiesToBackend();
         });
@@ -149,8 +142,6 @@ export class UserActionComponent {
   }
 
   private getElementsFromPoint(x: number, y: number): any[] {
-    // Implement logic to retrieve elements from point
-    // You can customize this based on your requirements
     return document.elementsFromPoint(x, y).map((elem) => {
       return {
         type: elem.tagName.toLowerCase(),
