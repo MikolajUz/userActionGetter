@@ -155,7 +155,6 @@ export class UserActionComponent {
       return {
         type: elem.tagName.toLowerCase(),
         classList: Array.from(elem.classList),
-        textContent: elem.textContent,
       };
     });
   }
